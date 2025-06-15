@@ -10,6 +10,7 @@ The `Screenshots/` folder contains all the required evidence:
 2. 📥 Screenshot of **each module's response**.
 3. 🌐 Screenshot of **each module called via HTTPS** (curl).
 4. 🧾 All code used during the process.
+5. Deployment in GCP
 
 
 ## 📁 Project Structure
@@ -57,3 +58,12 @@ Access the docs at 👉 http://127.0.0.1:8000/docs
 ![Screenshot 7](https://github.com/syllerim/mlops-llmops-lab/blob/main/FastAPI-app/Screenshots/7.text_summarizer_get.png?raw=true)
 ![Screenshot 8](https://github.com/syllerim/mlops-llmops-lab/blob/main/FastAPI-app/Screenshots/8.https_calls_1.png?raw=true)
 ![Screenshot 9](https://github.com/syllerim/mlops-llmops-lab/blob/main/FastAPI-app/Screenshots/9.https_calls_2.png?raw=true)
+
+#### Deploy GCP
+
+![Screenshot 9](https://github.com/syllerim/mlops-llmops-lab/blob/main/FastAPI-app/Screenshots_Deployment/1.deploy_GCP_Cloud_Run.png?raw=true)
+![Screenshot 9](https://github.com/syllerim/mlops-llmops-lab/blob/main/FastAPI-app/Screenshots_Deployment/2.deploy_GCP_Cloud_Run_metrics.png?raw=true)
+![Screenshot 9](https://github.com/syllerim/mlops-llmops-lab/blob/main/FastAPI-app/Screenshots_Deployment/3.deploy_GCP_logs.png?raw=true)
+![Screenshot 9](https://github.com/syllerim/mlops-llmops-lab/blob/main/FastAPI-app/Screenshots_Deployment/4.deploy_GCP_Cloud_Run_exceeded_memory_limits.png?raw=true)
+![Screenshot 9](https://github.com/syllerim/mlops-llmops-lab/blob/main/FastAPI-app/Screenshots_Deployment/5.Serive_Unavailable.png?raw=true)
+![Screenshot 9](https://github.com/syllerim/mlops-llmops-lab/blob/main/FastAPI-app/Screenshots_Deployment/6.Exceeded_cloud_shell.png?raw=true)
