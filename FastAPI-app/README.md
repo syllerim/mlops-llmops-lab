@@ -1,17 +1,21 @@
 # 🚀 FastAPI
 
-The objective of this exercise is to create a FastAPI application:
+This part focuses on deploying LLM-based inference endpoints using **FastAPI**.
 
-## 📸 Screenshots
+## 🗃️ Included
 
-The `Screenshots/` folder contains all the required evidence:
+The `Screenshots/` and `Screenshots_Deployment/`folder contains all the required evidence:
 
 1. 📄 Screenshot of the **FastAPI UI (/docs)** displaying at least 5 modules.
 2. 📥 Screenshot of **each module's response**.
 3. 🌐 Screenshot of **each module called via HTTPS** (curl).
 4. 🧾 All code used during the process.
-5. Deployment in GCP
 
+### ☁️ Deployment to GCP Cloud Run
+
+The script was successfully uploaded and deployed using Google Cloud Build and Cloud Run. All deployment steps are captured in screenshots.  
+However, due to **memory limits** and **Cloud Shell timeouts**, I wasn’t able to run the app directly from the deployed URL.  
+You can still verify the deployment steps in the screenshots.
 
 ## 📁 Project Structure
 ```bash
