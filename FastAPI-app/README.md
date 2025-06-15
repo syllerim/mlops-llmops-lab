@@ -15,11 +15,16 @@ The `Screenshots/` folder contains all the required evidence:
 ## 📁 Project Structure
 ```bash
 .
-├── main.py                # Main FastAPI app with endpoints
-├── models.py              # Pydantic model (Identity)
-├── requirements.txt       # All required packages
-├── README.md              # This file
-└── Screenshots/           # Screenshots for submission
+├── Dockerfile
+├── main.py                
+├── models.py              
+├── requirements.txt       
+├── README.md
+└── Screenshots/
+    ├── 1.png
+    ├── 2.png
+    └── ...           
+└── Screenshots_Deployment/
     ├── 1.png
     ├── 2.png
     └── ...
