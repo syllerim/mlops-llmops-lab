@@ -1,10 +1,7 @@
 from datetime import datetime
 from fastapi import FastAPI
-import google.generativeai as genai
 from models import Identity
 import pandas as pd
-from transformers import pipeline
-
 
 app = FastAPI()
 
@@ -33,11 +30,13 @@ def read_dataframe_properties(position: int):
 
 @app.get('/sentiment_classifier')
 def sentiment_classifier(query):
+    from transformers import pipeline
     sentiment_pipeline = pipeline("sentiment-analysis")
     return sentiment_pipeline(query)
 
 @app.get('/text_summarizer')
 def summarize_text(query: str):
+    from transformers import pipeline
     text_summarizer = pipeline("summarization")
     summary = text_summarizer(query, max_length=50, min_length=5, do_sample=False)
     return summary
