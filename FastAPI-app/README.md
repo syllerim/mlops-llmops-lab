@@ -13,6 +13,7 @@ The `Screenshots/` folder contains all the required evidence:
 
 
 ## 📁 Project Structure
+```bash
 .
 ├── main.py                # Main FastAPI app with endpoints
 ├── models.py              # Pydantic model (Identity)
@@ -22,6 +23,7 @@ The `Screenshots/` folder contains all the required evidence:
     ├── 1.png
     ├── 2.png
     └── ...
+```
 
 ## ⚙️ Running the App Locally
 
