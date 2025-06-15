@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+pandas
+transformers
+torch                 # required by transformers
+google-generativeai   # for genai
