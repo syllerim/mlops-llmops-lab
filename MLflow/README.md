@@ -1,6 +1,6 @@
 # Sentiment Analysis with MLflow Tracking
 
-For this exercise I've taken used the NLP module assignment from the KeepCoding AI Bootcamp. You can find the original NLP lab repository [here](https://github.com/syllerim/nlp-lab).
+For this exercise I've used the NLP module assignment from the KeepCoding AI Bootcamp. You can find the original NLP lab repository [here](https://github.com/syllerim/nlp-lab).
 
 The goal of this assignment is to implement a full sentiment analysis pipeline with MLflow tracking to monitor experimentation, metrics, and artifacts.
 
